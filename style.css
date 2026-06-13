@@ -99,11 +99,11 @@ textarea {
   justify-content: space-between;
   gap: 12px;
   padding: 8px 10px;
-  background: rgba(255, 250, 242, 0.74);
-  border: 1px solid rgba(255, 255, 255, 0.54);
-  border-radius: 8px;
-  box-shadow: 0 18px 45px rgba(38, 24, 18, 0.16);
-  backdrop-filter: blur(18px);
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  backdrop-filter: none;
 }
 
 .brand {
@@ -183,10 +183,16 @@ textarea {
   display: grid;
 }
 
+.nav-links.is-open a {
+  color: var(--ink);
+  text-shadow: none;
+}
+
 .nav-links a {
   display: block;
   padding: 13px 12px;
-  color: #4a352c;
+  color: var(--white);
+  text-shadow: 0 2px 10px rgba(38, 24, 18, 0.55);
   font-weight: 800;
 }
 
