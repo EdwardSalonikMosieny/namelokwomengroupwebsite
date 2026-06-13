@@ -281,24 +281,6 @@ textarea {
   fill: currentColor;
 }
 
-.nav-cta {
-  display: none;
-  min-height: 46px;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 26px;
-  color: var(--white);
-  background: var(--clay);
-  border-radius: var(--radius);
-  box-shadow: 0 16px 34px rgba(184, 63, 45, 0.2);
-  font-weight: 900;
-}
-
-.nav-cta:hover,
-.nav-cta:focus {
-  background: #9f3325;
-}
-
 .hero {
   position: relative;
   overflow: hidden;
@@ -861,7 +843,7 @@ h3 {
 
   .nav {
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: auto 1fr;
   }
 
   .menu-toggle {
@@ -885,10 +867,6 @@ h3 {
   }
 
   .topbar-hide-sm {
-    display: inline-flex;
-  }
-
-  .nav-cta {
     display: inline-flex;
   }
 
