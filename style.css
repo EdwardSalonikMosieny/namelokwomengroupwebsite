@@ -404,8 +404,7 @@ h3 {
   color: var(--clay);
 }
 
-.hero-actions,
-.cta-card {
+.hero-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -555,8 +554,6 @@ h3 {
 
 .section-copy p,
 .section-heading p,
-.impact-banner p,
-.cta-card p,
 .site-footer p {
   color: var(--muted);
 }
@@ -597,6 +594,14 @@ h3 {
 .section-heading {
   max-width: 760px;
   margin-bottom: 28px;
+}
+
+.section-title {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(2.45rem, 8vw, 4.4rem);
+  font-weight: 900;
+  line-height: 0.98;
 }
 
 .card-grid,
@@ -691,23 +696,6 @@ h3 {
   height: 116px;
 }
 
-.impact-section {
-  color: var(--white);
-  background:
-    linear-gradient(rgba(38, 24, 18, 0.83), rgba(38, 24, 18, 0.83)),
-    url("Assets/WhatsApp%20Image%202026-06-10%20at%2012.07.28%20PM.jpeg") center / cover;
-}
-
-.impact-banner {
-  display: grid;
-  gap: 16px;
-  margin-bottom: 22px;
-}
-
-.impact-banner p {
-  color: rgba(255, 255, 255, 0.82);
-}
-
 .stat-card {
   min-height: 128px;
   display: grid;
@@ -748,24 +736,6 @@ h3 {
 
 .gallery-item:hover img {
   transform: scale(1.04);
-}
-
-.cta-section {
-  padding: 52px 0;
-  background: var(--green);
-}
-
-.cta-card {
-  display: grid;
-  padding: 28px;
-  color: var(--white);
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.04));
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-radius: var(--radius);
-}
-
-.cta-card p {
-  color: rgba(255, 255, 255, 0.82);
 }
 
 .contact-list {
@@ -1059,7 +1029,6 @@ h3 {
 
   .about-grid,
   .contact-grid,
-  .impact-banner,
   .footer-grid {
     grid-template-columns: 1.05fr 0.95fr;
     align-items: center;
@@ -1107,13 +1076,4 @@ h3 {
     grid-column: span 2;
   }
 
-  .cta-card {
-    grid-template-columns: 1fr auto;
-    align-items: center;
-  }
-
-  .cta-card h2,
-  .cta-card p {
-    max-width: 760px;
-  }
 }
