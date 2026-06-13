@@ -586,7 +586,6 @@ h3 {
   color: rgba(255, 255, 255, 0.78);
 }
 
-.challenge-section,
 .gallery-section {
   background: var(--soft);
 }
@@ -938,7 +937,6 @@ h3 {
     align-items: center;
   }
 
-  .challenge-grid,
   .program-grid {
     grid-template-columns: repeat(3, 1fr);
   }
