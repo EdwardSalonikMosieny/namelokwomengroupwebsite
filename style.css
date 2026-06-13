@@ -456,11 +456,11 @@ h3 {
 .about-card {
   display: grid;
   gap: 24px;
-  padding: 24px;
-  background: var(--white);
-  border: 1px solid rgba(184, 63, 45, 0.12);
-  border-radius: 8px;
-  box-shadow: 0 22px 56px rgba(52, 29, 18, 0.12);
+  padding: 24px 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .about-copy {
@@ -476,8 +476,8 @@ h3 {
   max-width: 560px;
   margin-bottom: 16px;
   color: var(--ink);
-  font-size: clamp(1.65rem, 8vw, 3rem);
-  line-height: 1.02;
+  font-size: clamp(1.35rem, 6vw, 2.35rem);
+  line-height: 1.08;
 }
 
 .about-tabs {
@@ -841,7 +841,7 @@ h3 {
   }
 
   .about-card {
-    padding: 34px;
+    padding: 34px 0;
   }
 
   .about-image img {
@@ -923,7 +923,7 @@ h3 {
     grid-template-columns: minmax(0, 1fr) minmax(340px, 0.82fr);
     align-items: center;
     gap: 48px;
-    padding: 52px;
+    padding: 52px 0;
   }
 
   .about-image img {
