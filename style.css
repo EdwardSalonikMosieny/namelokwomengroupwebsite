@@ -675,32 +675,20 @@ h3 {
   box-shadow: 0 14px 28px rgba(52, 29, 18, 0.07);
 }
 
-.partner-mark {
-  display: grid;
-  width: 96px;
-  height: 96px;
-  place-items: center;
-  border-radius: 50%;
-  font-size: 1.45rem;
-  font-weight: 900;
-  letter-spacing: 0;
-}
-
-.honey-mark {
-  color: var(--ink);
-  background: #ffd46a;
-  border: 5px solid #fff1c2;
-}
-
-.fao-mark {
-  color: var(--white);
-  background: #1b5f9e;
-  border: 5px solid #dbeeff;
-}
-
 .partner-card strong {
   color: var(--ink);
   font-size: 1.05rem;
+}
+
+.partner-logo {
+  width: min(100%, 320px);
+  height: 110px;
+  object-fit: contain;
+}
+
+.fao-logo {
+  width: 116px;
+  height: 116px;
 }
 
 .impact-section {
