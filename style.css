@@ -106,14 +106,10 @@ textarea {
   letter-spacing: 0;
 }
 
-.brand-mark {
-  display: grid;
-  width: 42px;
-  height: 42px;
-  place-items: center;
-  color: var(--white);
-  background: linear-gradient(135deg, var(--clay), var(--green));
-  border-radius: 50%;
+.brand-logo {
+  width: 76px;
+  height: 58px;
+  object-fit: contain;
 }
 
 .menu-toggle {
