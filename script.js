@@ -66,7 +66,7 @@ const showGalleryPhoto = (index) => {
   activeGalleryIndex = (index + galleryButtons.length) % galleryButtons.length;
   const button = galleryButtons[activeGalleryIndex];
   const image = button.querySelector("img");
-  const caption = button.querySelector("figcaption")?.textContent || image?.alt || "";
+  const caption = button.dataset.caption || "";
 
   if (!image) {
     return;
