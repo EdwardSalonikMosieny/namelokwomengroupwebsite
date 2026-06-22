@@ -1017,6 +1017,17 @@ body.lightbox-open {
   font-size: 0.92rem;
 }
 
+.powered-by {
+  width: min(100% - 32px, var(--max-width));
+  margin: 10px auto 0;
+  font-size: 0.88rem;
+}
+
+.powered-by a {
+  color: var(--honey);
+  font-weight: 800;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(18px);
