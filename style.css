@@ -996,17 +996,26 @@ body.lightbox-open {
   font-weight: 800;
 }
 
-.copyright {
+.footer-bottom {
   width: min(100% - 32px, var(--max-width));
   margin: 28px auto 0;
   padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 24px;
+  text-align: center;
+}
+
+.copyright {
+  margin: 0;
   font-size: 0.92rem;
 }
 
 .powered-by {
-  width: min(100% - 32px, var(--max-width));
-  margin: 10px auto 0;
+  margin: 0;
   font-size: 0.88rem;
 }
 
